@@ -34,14 +34,17 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eP2-nD-0NY">
-                                                <rect key="frame" x="64.5" y="0.0" width="42" height="30"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eP2-nD-0NY">
+                                                <rect key="frame" x="64.5" y="0.0" width="39.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="XqH-Ry-rTu">
-                                                <rect key="frame" x="116.5" y="0.0" width="228.5" height="31"/>
+                                                <rect key="frame" x="114" y="0.0" width="231" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="227" id="jFs-om-UcQ"/>
+                                                </constraints>
                                                 <color key="minimumTrackTintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="maximumTrackTintColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="thumbTintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -60,14 +63,17 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fy2-5D-Soc">
-                                                <rect key="frame" x="63" y="0.0" width="42" height="30"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fy2-5D-Soc">
+                                                <rect key="frame" x="63" y="0.0" width="39.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.40000000000000002" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="cEw-vA-f8r">
-                                                <rect key="frame" x="115" y="0.0" width="230" height="31"/>
+                                                <rect key="frame" x="112.5" y="0.0" width="232.5" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="228.5" id="GUk-kA-kaI"/>
+                                                </constraints>
                                                 <color key="minimumTrackTintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="maximumTrackTintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <color key="thumbTintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -86,14 +92,17 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVt-5f-KCg">
-                                                <rect key="frame" x="63.5" y="0.0" width="42" height="30"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVt-5f-KCg">
+                                                <rect key="frame" x="63.5" y="0.0" width="39.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.59999999999999998" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="FwL-Ne-Swg">
-                                                <rect key="frame" x="115.5" y="0.0" width="229.5" height="31"/>
+                                                <rect key="frame" x="113" y="0.0" width="232" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="228" id="zVM-Y3-j1b"/>
+                                                </constraints>
                                                 <color key="minimumTrackTintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="maximumTrackTintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <color key="thumbTintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
